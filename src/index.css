@@ -1,8 +1,62 @@
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+body, html {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
+#root{
+  width: 100%;
+  height: 100%;
+}
+.Home{
+  color: white;  
+}
+.home-page{
+  height: 100%;
+}
+.home-page-prompt{
+  text-align: center;
+  margin-top: 131px;
+  font-size: 38px;
+}
+.home-page-league-list{
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+.league-logo{
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+}
+.league-logo-name{
+  text-align: center;
+  font-size: 70px;
+}
+.league-logo-icon{
+  height: 35%;
+  background-image: url(img/league_logos.png);
+  background-repeat: no-repeat;
+  background-size: 500%;
+}
+.league-logo-icon.NBA{
+  background-position: 0% 0%;
+}
+.league-logo-icon.NFL{
+  background-position: 25% 0%;
+}
+.league-logo-icon.MLB{
+  background-position: 50% 0%;
+}
+.league-logo-icon.NHL{
+  background-position: 75% 0%;
+}
+.league-logo-icon.MLS{
+  background-position: 100% 0%;
+}
 ol, ul {
   padding-left: 30px;
 }
